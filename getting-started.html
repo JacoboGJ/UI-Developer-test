@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="media/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/carto_test_style.css">
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/prettify.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Getting started</title>
+</head>
+<body>
+
+	<!-- NAVBAR -->
+	<div class='navbar'>	
+		<div class='nav-container' id='top-nav'>
+			<a class='logo' href="#home">
+				<img id='logo-nav' src="media/img/CARTO-logo.svg.png" alt="Logo">
+			</a>
+		
+			<div class="icon-collapse" onclick="responsiveNav(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+			</div>
+			<ul class='menu-nav'>
+				<li class='nav-item'>
+					<a href='#Builder'>Builder</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#Solutions'>Solutions</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#blog'>Blog</a>
+				</li>				
+			</ul>
+			<ul class='menu-nav-actions'>
+				<li class='nav-item'>
+					<a href='#login'>Login</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#signup'>Signup</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<!-- END NAVBAR -->
+
+
+	<!-- CONTENT -->
+	<div class='content-container'>
+		<div class='row-content'>
+			<div class='col-content-12'>
+				<div class='heading-container'>
+					<div class='section-title'>
+					</div>
+					<div class='title'>
+						<h1>GETTING STARTED</h1>
+					</div>
+					<div class='info-bar'>
+						<ul class='info-menu'>
+							<li><i class="fa fa-clock-o"> </i> 30 mins</li>
+							<li><i class="fa fa-square colored easy" aria-hidden="true"></i><i class="fa fa-square easy" aria-hidden="true"> </i><i class="fa fa-square easy" aria-hidden="true"> </i> <span class="easy">Easy</span></li>
+							<li><i class="fa fa-share-alt" aria-hidden="true"></i> Share <i class="fa fa-facebook-official" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+						</ul>
+					</div>
+				</div>
+				<video width="100%" poster='media/img/thumbnail.gif' preload="none" controls>
+				  <source src="media/video/The Future of Location Intelligence in 2018.mp4" type="video/mp4">
+				  <source src="media/video/The Future of Location Intelligence in 2018.ogg" type="video/ogg">
+				  Your browser does not support HTML5 video.
+				</video>
+			</div>
+		</div>
+		<div class='row-content'>
+			<div class='col-content-8'>
+				<div class='section'>
+					<div class='header'>
+						<h1 id='preparing-your-data'>PREPARING YOUR DATA</h1>
+					</div>
+					<div class='content'>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper. Morbi dapibus purus eu massa viverra convallis. Suspendisse posuere tincidunt mi, quis convallis enim gravida in. Aenean porttitor ligula eu nulla euismod laoreet. Fusce sed arcu et tellus varius facilisis. Cras auctor pharetra nisl dignissim blandit. In malesuada justo lacus, rutrum condimentum eros ultricies quis. Praesent id enim dui.</p>
+					</div>
+					<div class='header'>
+						<h1 id='importing-javascript-libraries'>IMPORTING JAVASCRIPT LIBRARIES</h1>
+					</div>
+					<div class='content'>
+						<div class="code-box-actions"><i class="fa fa-clone" aria-hidden="true"></i><a href='#no-where' onclick="copyToClip()">   Copy</a></div>
+						<pre class="prettyprint lang-html linenums" id='code-text'>
+&lt;link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" /&gt;
+...
+&lt;div id="map"&gt;&lt;/div&gt;
+...
+&lt;script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+// get the viz.json url from the CARTO Editor
+// - click on visualize
+// - create new visualization
+// - make visualization public
+// - click on publish
+// - go to API tab
+
+window.onload = function() {
+  cartodb.createVis('map', 'http://documentation.carto.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json');
+}
+&lt;/script&gt;</pre>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper.</p>
+					</div>
+					<div class='header'>
+						<h1 id='best-practices'>BEST PRACTICES</h1>
+					</div>
+					<div class='content'>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper. Morbi dapibus purus eu massa viverra convallis. Suspendisse posuere tincidunt mi, quis convallis enim gravida in.
+						</p>
+						<h4>CLEAN CODE</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper. Morbi dapibus purus eu massa viverra convallis. Suspendisse posuere tincidunt mi, quis convallis enim gravida in. Aenean porttitor ligula eu nulla euismod laoreet. Fusce sed arcu et tellus varius facilisis. Cras auctor pharetra nisl dignissim blandit.
+						</p>
+						<div class='warning-note'>
+							<h3 id='not-to-do'>NOT TO DO <img class='warning-note-img' src='media/img/carto_logo_circulo_warning.png'/></h3>
+							<p>
+								Never do <code>Alt + F4</code> you are being trolled. Praesent id enim dui. Praesent luctus luctus eros, vel egestas enim faucibus ac. Suspendisse quis gravida metus.
+							</p>
+						</div>
+					</div>
+					<div class='header'>
+						<h1 id="test-your-app">TEST YOUR APP</h1>
+					</div>
+					<div class='content'>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper. Morbi dapibus purus eu massa viverra convallis. Suspendisse posuere tincidunt mi, quis convallis enim gravida in. Aenean porttitor ligula eu nulla euismod laoreet. Fusce sed arcu et tellus varius facilisis. Cras auctor pharetra nisl dignissim blandit. 
+
+						<p>
+						In malesuada justo lacus, rutrum condimentum eros ultricies quis. Praesent id enim dui. Praesent luctus luctus eros, vel egestas enim faucibus ac. Suspendisse quis gravida metus. Donec sit amet urna faucibus risus faucibus auctor sed at lacus. Aenean ultricies bibendum ante, ac viverra metus hendrerit eu. Donec mattis, orci vitae interdum tincidunt, nunc lacus placerat ex, ac placerat lacus nisi quis massa. Curabitur sagittis est a justo posuere malesuada. Donec bibendum orci lectus, eget pellentesque erat imperdiet ornare.
+						</p>
+					<div class='tip-note'>
+						<h3 id='not-to-do'>PRO TIP</h3>
+						<p>
+							Testing saves money and time! So never <code>Alt + F4</code>, keep trying. Praesent id enim dui. Praesent luctus luctus eros, vel egestas enim faucibus ac. Suspendisse quis gravida metus.
+						</p>
+					</div>
+
+					</div>
+
+					<div class='header'>
+						<h1 id="share-and-help">SHARE AND HELP THE COMMUNITY</h1>
+					</div>
+					<div class='content'>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt neque nec urna feugiat elementum. Nulla accumsan nunc sed tellus porta, id lobortis risus ullamcorper. Morbi dapibus purus eu massa viverra convallis. .</p> 
+
+						<p>
+						In malesuada justo lacus, rutrum condimentum eros ultricies quis. Praesent id enim dui. Praesent luctus luctus eros, vel egestas enim faucibus ac.
+						</p>
+					<div class='recommendation-note'>
+						<h3 id='recommended-sites'>RECOMMENDED SITES</h3>
+						<p>
+							stackoverflow, github, stackoverflow, github, stackoverflow, github, stackoverflow, github, stackoverflow, github, stackoverflow, github, stackoverflow, github, stackoverflow, github ...
+						</p>
+					</div>
+
+					</div>
+
+					<div class='endpage-link'>
+						<a class="link" href='index.html'>Back to Documentation</a>
+					</div>
+
+
+				</div>
+			</div>
+			<div class='col-content-4 side-bar'>
+
+				TABLE OF CONTENTS
+				<ol>
+					<li><a href="#preparing-your-data">Preparing your data.</a></li>
+					<li><a href="#importing-javascript-libraries">Importing JavaScript libraries.</a></li>
+					<li><a href="#best-practices">Best practices.</a></li>
+					<li><a href="#test-your-app">Test your App.</li>
+					<li><a href="#recommended-sites">Share and help the community.</li>
+				</ol>
+				<a class="link" href='index.html'>Back to Documentation</a>
+			</div>
+
+		</div>
+	</div>
+	<!-- END CONTENT -->
+	
+	<script>
+	function responsiveNav(x) {
+    	x.classList.toggle("change");
+    	var x = document.getElementById("top-nav");
+	    if (x.className === "nav-container") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "nav-container";
+	    }
+	}
+	</script>
+	
+</body>
+

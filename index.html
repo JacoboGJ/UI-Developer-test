@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="media/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/carto_test_style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>CARTO - Doc</title>
+</head>
+<body>
+
+	<!-- NAVBAR -->
+	<div class='navbar'>	
+		<div class='nav-container' id='top-nav'>
+			<a class='logo' href="#home">
+				<img id='logo-nav' src="media/img/CARTO-logo.svg.png" alt="Logo">
+			</a>
+		
+			<div class="icon-collapse" onclick="myFunction(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+			</div>
+			<ul class='menu-nav'>
+				<li class='nav-item'>
+					<a href='#Builder'>Builder</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#Solutions'>Solutions</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#blog'>Blog</a>
+				</li>				
+			</ul>
+			<ul class='menu-nav-actions'>
+				<li class='nav-item'>
+					<a href='#login'>Login</a>
+				</li>
+				<li class='nav-item'>
+					<a href='#signup'>Signup</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<!-- END NAVBAR -->
+
+
+	<!-- CONTENT -->
+	<div class='content-container'>
+
+		<div class='row-content'>
+			<div class='col-content-12'>
+				<h1>DOCUMENTATION</h1>
+				<p>Learn all about the CARTO engine. An Open Source tool that enables you to use severla APIs to build advanced, dynamic geospation datasets and scalable maps for your own applications.</p>
+				<form>
+	  			<input type="text" name="search" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+		<div class='row-content'>
+			<div class='col-content-4'>
+				<h3>Engine</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nulla id mi egestas, at ornare elit interdum. Aliquam neque.</p>
+				<a class='button-link' href='getting-started.html'>Carto.js</a>
+			</div>
+			<div class='col-content-4'>
+				<h3>Location Data Services</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nulla id mi egestas, at ornare elit interdum. Aliquam neque.</p>
+				<a class='button-link' href='getting-started.html'>Routing <span class='api-button'>API</span></a>
+			</div>
+			<div class='col-content-4'>
+				<h3>Builder</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nulla id mi egestas, at ornare elit interdum. Aliquam neque.</p>
+				<a class='button-link' href='getting-started.html'>Static <span class='api-button'>API</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- END CONTENT -->
+
+	<script>
+	function myFunction(x) {
+    	x.classList.toggle("change");
+    	var x = document.getElementById("top-nav");
+	    if (x.className === "nav-container") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "nav-container";
+	    }
+	}
+	</script>
+</body>
