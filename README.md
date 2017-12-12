@@ -2,7 +2,7 @@
 
 Hi there! I'm Jacobo González and I've made this site to show you my CSS and HTML codding skills. I would like to mention before we hop in that this is my very first CSS project and I'm very proud of what I've done. So, I had to learn several things about CSS. The best thing is that I enjoyed it and I'm motivated to do more and better :)
 
-## Enviroment instalattion
+## Enviroment installation
 
 As this test was a simple site (no backend), I've used github pages in order to deploy it. Therefore you can jump into one of these links and see my test, don't forget to check it out with your mobile devices (wink, wink):
 
